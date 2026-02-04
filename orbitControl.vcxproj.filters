@@ -15,13 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="orbitControl.cpp">
+    <ClCompile Include="orbit_jni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dow\ISS-Tracking-Pointer-master\ISS-Tracking-Pointer-master\SGP4_vallado\sgp4ext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dow\ISS-Tracking-Pointer-master\ISS-Tracking-Pointer-master\SGP4_vallado\sgp4io.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Orbit.h">
+    <ClInclude Include="sgp4ext.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sgp4io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sgp4unit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\dow\ISS-Tracking-Pointer-master\ISS-Tracking-Pointer-master\SGP4_vallado\sgp4io.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\dow\ISS-Tracking-Pointer-master\ISS-Tracking-Pointer-master\SGP4_vallado\sgp4unit.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
