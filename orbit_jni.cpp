@@ -23,7 +23,7 @@ extern "C" {
      *         Position (km), Velocity (km/s), Lat/Lon (deg), Alt (km)
      */
     JNIEXPORT jdoubleArray JNICALL
-        Java_com_yourpackage_orbit_OrbitPropagator_propagateFromTle(
+        Java_com_orbitYu_orbit_OrbitPropagator_propagateFromTle(
             JNIEnv* env, jclass clazz,
             jstring line1,
             jstring line2,
